@@ -95,3 +95,16 @@ My favor:
 sudo ln -s ~/OS-161-Scripts/build_run_os161.sh /usr/local/bin/a
 sudo ln -s ~/OS-161-Scripts/change_config_for_sys161.sh /usr/local/bin/s
 ```
+
+If you wanna use these two commands: "a" for build and run, "s" for change memory size.
+
+You can just use:
+```
+sudo make
+```
+to link files.
+
+```
+sudo make remove
+```
+to remove links.
