@@ -19,13 +19,13 @@ usage() {
 count_memory() {
     if [ $(echo "$result > $max" | bc) -ne 0 ]
     then
-	echo "Memory is too large."
-	usage
+        echo "Memory is too large."
+        usage
     fi
     if [ $(echo "$result < $min" | bc) -ne 0 ]
     then
-	echo "Memory is too small."
-	usage
+        echo "Memory is too small."
+        usage
     fi
     echo "Use $result Mb memory."
     result=$(echo "$result*1024" | bc)
