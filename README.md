@@ -1,6 +1,11 @@
 # One line install
 ```bash
-curl -L http://os161.xcv58.me | sh
+curl -L http://os161.xcv58.me | sudo bash
+```
+
+If you don't have ```curl```:
+```bash
+wget -qO- http://os161.xcv58.me | sudo bash
 ```
 
 ---
