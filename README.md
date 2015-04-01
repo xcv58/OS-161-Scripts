@@ -1,3 +1,8 @@
+# One line install
+curl -L os161.xcv58.me | sh
+
+---
+
 # Goal of OS/161 Scripts
 The goal of OS/161 scripts is help you build and debug your kernel more convenient.
 
