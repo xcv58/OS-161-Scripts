@@ -1,5 +1,7 @@
 # One line install
+```bash
 curl -L os161.xcv58.me | sh
+```
 
 ---
 
