@@ -1,6 +1,6 @@
 PWD=$(shell pwd)
 BINDIR=/usr/local/bin
-SYS161DIR=~/root
+SYS161DIR=~/os161/root
 
 default:
 	ln -s $(PWD)/build_run_os161.sh $(BINDIR)/a
