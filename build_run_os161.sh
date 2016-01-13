@@ -34,7 +34,7 @@ then
     mv /usr/local/bin/gcc /usr/local/bin/gccbak
 fi
 
-cd ~/root
+cd ~/os161/root
 if [[ $@ == *rw* ]]
 then
     if [[ $# > 1 ]]
