@@ -1,3 +1,6 @@
+# Deprecated
+This script only works for Spring CSE 421/521 course before 2016.
+
 # One line install
 ```bash
 curl -L http://os161.xcv58.me | sudo bash
